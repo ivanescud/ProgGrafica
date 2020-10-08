@@ -1,0 +1,13 @@
+.foot {
+    background-color: black;
+    color: white;
+}
+
+.foot a {
+    color: white;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 85vh;
+  }

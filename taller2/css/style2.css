@@ -1,0 +1,497 @@
+
+
+
+/*nav bar*/
+
+
+.w-100 {
+  width: 100% !important;
+  height: 75vh;
+}
+
+
+
+
+/* Remove border color from the collapsible button */
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+
+
+/*Carousel*/
+
+.reviewcara li.active {
+    background-color: #000 ;
+}
+
+
+
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #fff ;
+}
+
+
+.reviewsele{
+
+  color: #000 !important;
+}
+
+
+.reviewcaraactive li {
+    border-color: #000 ;
+}
+
+.reviewcaraactive li.active {
+    background-color: #2D2D30 ;
+}
+
+
+
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+
+
+.forma{
+
+
+	padding: 10px 0px 5px 10px;
+
+
+}
+
+footer {
+    background-color: #000;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+    font-size: 15px;
+
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: underline;
+
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.boton {
+
+	background-color: #2D2D30;
+	color: white;
+
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 13px;
+  background: #2D2D30;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn:hover {
+  background: #666666;
+  text-decoration: none;
+}
+
+.btn2 {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  background: #016368;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn2:hover {
+  background: #019ba0;
+  text-decoration: none;
+}
+
+.equis {
+
+  color: white;
+  margin-right: 10px;
+
+}
+
+.equis:link{
+
+  text-decoration:none;
+}
+
+.submit{
+
+   margin-left: auto;
+  margin-right: auto;
+}
+
+.cartitle {
+
+  text-shadow: 2px 2px 2px #2a2a2b;
+  font-size: 120%;
+
+}
+
+.cartext {
+  font-size: 20px;
+   text-shadow: 2px 2px 2px #2a2a2b;
+
+
+
+}
+
+.testbutton {
+  font-family: arial;
+  color: #ffffff;
+  font-size: 12px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border: 1px solid #595959;
+  background: #2D2D30;
+  font-family: 'Cormorant Garamond', serif;
+  
+}
+.testbutton:hover {
+  
+  background: #666666;
+}
+
+.buttonch1 {
+  text-decoration: none;
+  text-align: center
+}
+
+
+.selectext {
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: #2a2a2b;
+}
+
+.selecttitle{
+  text-align: center;
+  /*font-family: 'Cormorant Garamond', serif;*/
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.legendtitle{
+
+ /* font-family: 'Cormorant Garamond', serif;*/
+  font-weight: 500;
+  font-size: 30px;
+
+}
+
+.legendtext{
+
+  font-size: 17px;
+  font-family: 'Cormorant Garamond', serif;
+  
+}
+
+body{
+/*font-family: 'Cormorant Garamond', serif;*/
+/*font-family: 'Nanum Myeongjo', serif;*/
+font-family: 'Muli', sans-serif;
+
+
+}
+
+.carruceltext{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.ui-datepicker {
+background: #000; /* Old browsers */
+opacity: 0.9;
+font-size:14px;
+padding:10px;
+border:1px solid #ccc;
+color: #b2b2b2;
+}
+ 
+.ui-datepicker table {
+width:250px;
+height: 200px;
+}
+ 
+.ui-datepicker table td {
+text-align:center;
+}
+.ui-datepicker table td:hover a {
+
+color: #000;
+}
+.ui-datepicker table td:hover  {
+background-color: #fff;
+
+}
+ 
+.ui-datepicker a {
+cursor:pointer;
+text-decoration:none;
+color: #fff;
+}
+.ui-datepicker a:hover {
+
+}
+ 
+.ui-datepicker-prev {
+}
+ 
+.ui-datepicker-next {
+float:right;
+}
+ 
+.ui-datepicker-title {
+text-align: center;
+font-weight:bold;
+}
+
+.cuadroshover:hover {
+
+  background: #ededed;
+
+
+}
+
+.cuadroshover {
+
+  margin-top: 10px;
+
+  
+}
+
+
+
+.formfixed{
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  opacity: 0.9;
+  color: #000;
+  display: block;
+  cursor: pointer;
+  padding: 10px 9px;
+  border: 1px solid #DEDEDE;
+  z-index: 999999999999;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: none;
+}
+
+.formtextcolor{
+
+color: white;
+
+
+
+}
+
+.postborder {
+
+
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    border-color: #b0b0b2;
+
+}
+
+.posthovertext:link{
+
+text-decoration: none;
+
+}
+
+
+.centeredText {  
+  top: 50%;
+    left: 0;
+    margin-top: -15px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+}
+
+
+.packepost :link{
+
+text-decoration: none;
+
+}
+
+.packepost a:hover{
+
+  color:#84b2c9;
+
+}
+
+.packepost a {
+
+  color: white;
+  text-shadow: 2px 2px 2px #2a2a2b;
+}
+
+
+
+.reviewhover:link{
+
+text-decoration: none;
+color: #5a8499;
+
+}
+
+.aventurediv img {
+ position: relative;
+       
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size:1.4rem;
+  font-weight: 700;
+  
+}
+.aventurediv:hover .image {
+  transition: .5s ease;
+  opacity: 0.3;
+}
+
+.aventurediv:hover .middle {
+  opacity: 1;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.groupbut {
+
+  font-family: arial;
+  
+  font-size: 12px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border: 1px solid #595959;
+  background-color: transparent;
+  font-family: 'Cormorant Garamond', serif;
+  width: 100%;
+  opacity: 0.8;
+  transition: .5s ease;
+  border-style: solid;
+    border-width: 1px;
+    border-color: #b0b0b2;
+
+
+
+
+}
+
+.groupbut:hover {
+  
+  background: #c4c4c4;
+
+}
+
+.active2{
+  background: #c4c4c4;
+ 
+  
+
+}
+
+
+
+.logoblanco{
+
+  height:50px;
+  width: 20px;
+
+
+}
+
+
+
+
+
+
+ .carsize{
+     
+
+     margin-top: -130px;
+
+     }
+
+
+
+.font1{
+
+  font-weight: 900;
+  font-size: 100%;
+
+
+}     
