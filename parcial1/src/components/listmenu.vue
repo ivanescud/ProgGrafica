@@ -1,55 +1,8 @@
 <template>
 <div>
-
-<div class="row main ">
-
-<div class="sidenav col-2">
-  <a href="#">
-  <i class="material-icons"  >house</i>
-  Inicio
-  </a>
-  <a href="#">
-    <i class="material-icons"  >gavel</i>
-    Expedientes
-  </a>
-  <hr>
-  <a href="#">
-    <i class="material-icons">
-    description
-    </i>
-    Reportes
-  </a>
-  <hr>
-  <a href="">
- <span style="font-weight:bold">Configuracion</span> 
-  <i class="material-icons" style="font-size:30px">
-    settings
-    </i>
-</a>
-  <a href="#">
-  <i class="material-icons">
-    museum
-</i>
-Aseguradora
-  </a>
-  <a href="#">
-  <i class="material-icons">
-    person
-</i>
-Usuario
-  </a>
-  <a href="#">
-  <i class="material-icons">
-    account_balance
-</i>
-Juzgado
-  </a>
-</div>
-
-    <div class="col-9">
-    <div class="row">
-    <div class="col-9">
-    <h1>Agenda del dia</h1>
+<a-row>
+  <a-col :span="18" class="main">
+        <h1>Agenda del dia</h1>
     <h3>Martes 7 de enero de 2019</h3>
     <br>
 
@@ -73,17 +26,21 @@ Juzgado
   </tbody>
 </table>
 
-    </div>
+      </a-col>
+      <a-col :span="6" >
+      <div class="center"> 
+      <vc-calendar class="mt-5"  />
+      </div>
+        
+      </a-col>
 
-    <div class="col-3">
-    <vc-calendar class="mt-5"  />
-      
-    </div>
+</a-row>
 
 
-</div>
-<div class="row mt-5">
-    <div class="col-3"  v-for="item in opc" :key="item.id">
+<a-row  class="mt-4">
+    
+    <a-col :span="4"  v-for="item in opc" :key="item.id">
+       
        
         <a href="" style="text-decoration: none;">
 
@@ -103,22 +60,18 @@ Juzgado
             </div>
             
             </a>
-    </div>
-
     
-    </div>
-   
-     
-    <button class="float">
+    </a-col>
+    
+  </a-row>
+
+
+
+ <button class="float">
           <i class="material-icons" style="font-size:45px">
     add
         </i>
         </button>
-   
-  </div> 
-     
-</div>
-
 </div>   
 </template>
 
@@ -161,39 +114,13 @@ export default {
 
 
 <style  scoped>
-.sidenav {
-  height: 700px;
-  
-  border: 1px solid gray;  
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  text-align: initial;
-}
 
-.sidenav a {
-  
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  padding: 10px 0 10px 22px;
-}
-
-.sidenav a:hover {
-  color: black;
-}
 
 .main {
  
   text-align: initial;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 
 .opbutton{
@@ -224,7 +151,12 @@ export default {
     
 }
 
-
+.center {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 .float{
 	position:fixed;
 	width:60px;
