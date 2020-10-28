@@ -1,0 +1,26 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Bar": {
+    "description": "Auto imported from components/bar.vue"
+  },
+  "LazyBar": {
+    "description": "Auto imported from components/bar.vue"
+  },
+  "Loginf": {
+    "description": "Auto imported from components/loginf.vue"
+  },
+  "LazyLoginf": {
+    "description": "Auto imported from components/loginf.vue"
+  },
+  "Proyectos": {
+    "description": "Auto imported from components/proyectos.vue"
+  },
+  "LazyProyectos": {
+    "description": "Auto imported from components/proyectos.vue"
+  }
+}

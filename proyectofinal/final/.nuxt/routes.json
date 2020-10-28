@@ -1,0 +1,23 @@
+[
+  {
+    "name": "form",
+    "path": "/form",
+    "component": "/Users/ivanescudero/Desktop/Programacion Grafica/ProGrafica/ProgGrafica/proyectofinal/final/pages/form/index.vue",
+    "chunkName": "pages/form/index",
+    "_name": "_aeff9de8"
+  },
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "/Users/ivanescudero/Desktop/Programacion Grafica/ProGrafica/ProgGrafica/proyectofinal/final/pages/home/index.vue",
+    "chunkName": "pages/home/index",
+    "_name": "_c2c41932"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ivanescudero/Desktop/Programacion Grafica/ProGrafica/ProgGrafica/proyectofinal/final/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_29ec581d"
+  }
+]
